@@ -5,11 +5,7 @@ const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector("form .msg");
 
-const countryList = {
-    "USD": "US",
-    "INR": "IN",
-    // Add other currency codes and their corresponding country codes
-};
+
 
 for (let select of dropdowns) {
     for (let currCode in countryList) {
